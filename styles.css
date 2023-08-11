@@ -1,0 +1,99 @@
+/* Variables */
+
+:root {
+    --main-bg-color: #191919;
+    --main-text-color: #FFFFFF;
+    --supp-color: #118DA8;
+}
+
+/* Resets */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+  
+
+  /* Main CSS */
+
+  html {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    list-style-type: none;
+    font-family: 'DM Sans';
+    font-weight: 200;
+
+  }
+
+  ul{
+    list-style-type:none;
+  }
+
+  .header {
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+
+  .header--menu{
+    display: flex;
+    padding: 20px;
+  }
+
+  .header--menu > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    font-family: DM Sans;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    padding: 0 70px;
+    gap: 60px;
+    align-items: center;
+}
+
+.effect {
+    position: absolute;
+    left: 44px;
+    top: 132px;
+}
+
+.photo {
+    display: block;
+    width: 650px;
+    width: auto;
+    height: auto; 
+    padding: 40px 0; 
+}
